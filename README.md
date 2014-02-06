@@ -7,6 +7,10 @@ PHP Helper for PictureFill [Laravel 4.1]
 
 The basic idea is simple, I wanted to write one line of code and generate the huge block of html that PictureFill expects to find so it can dynamically load a different image according end user's screen size. If you want to learn more about PictureFill.js just visit https://github.com/scottjehl/picturefill
 
+### In action
+
+You can see a live example on the http://www.laravel.gr homepage.
+
 
 ## Why to use it?
 
