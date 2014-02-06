@@ -36,7 +36,7 @@ you just need to write this
 PictureFill::make("images/themes/mypic.jpg","A giant stone face at The Bayon temple in Angkor Thom, Cambodia")
 ```
 
-You may wonder where how you can set the media queries or the different variations of images? ( _small, medium e.t.c)
+You may wonder how you can set the media queries or the different variations of images? ( _small, medium e.t.c)
 
 There is a config file
 
