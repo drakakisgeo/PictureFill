@@ -1,0 +1,20 @@
+{
+    "name": "lollypopgr/picture-fill",
+    "description": "",
+    "authors": [
+        {
+            "name": "George Drakakis",
+            "email": "lolly@lollypop.gr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lollypopgr\\PictureFill": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
