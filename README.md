@@ -17,7 +17,7 @@ You can see a live example on the http://www.laravel.gr homepage.
 Instead of this (yeah, you' ve got to do this for each picture)
 
 ```html
- <span data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+ <span data-picture data-alt="A giant stone">
         <span data-src="mypic_small.jpg"></span>
         <span data-src="mypic_medium.jpg"     data-media="(min-width: 400px)"></span>
         <span data-src="mypic_large.jpg"      data-media="(min-width: 800px)"></span>
@@ -33,7 +33,7 @@ Instead of this (yeah, you' ve got to do this for each picture)
 you just need to write this
 
 ```php
-PictureFill::make("images/themes/mypic.jpg","A giant stone face at The Bayon temple in Angkor Thom, Cambodia")
+PictureFill::make("mypic.jpg","A giant stone")
 ```
 
 You may wonder how you can set the media queries or the different variations of images? ( _small, medium e.t.c)
@@ -57,7 +57,7 @@ You set the file name suffix, and the media query that will trigger it.
 And what if...you need to parse a different array on runtime?
 
 ```php
-PictureFill::make("images/themes/mypic.jpg","A giant stone face at The Bayon temple in Angkor Thom, Cambodia", $differentsetup)
+PictureFill::make("mypic.jpg","A giant stone", $differentsetup)
 ```
 
 ## Usage
