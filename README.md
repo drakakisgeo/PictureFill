@@ -25,7 +25,7 @@ Instead of this (yeah, you' ve got to do this for each picture)
 
         <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
         <noscript>
-            <img src="mypic_small.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+            <img src="mypic_small.jpg" alt="A giant stone">
         </noscript>
     </span>
 ```
@@ -36,7 +36,7 @@ you just need to write this
 PictureFill::make("mypic.jpg","A giant stone")
 ```
 
-You may wonder how you can set the media queries or the different variations of images? ( _small, medium e.t.c)
+You may wonder how you can set the media queries or the different variations of images? ( _small, _medium e.t.c)
 
 There is a config file
 
@@ -54,7 +54,7 @@ There is a config file
 ```
 You set the file name suffix, and the media query that will trigger it.
 
-And what if...you need to parse a different array on runtime?
+And what if...you need to parse a different array at runtime?
 
 ```php
 PictureFill::make("mypic.jpg","A giant stone", $differentsetup)
